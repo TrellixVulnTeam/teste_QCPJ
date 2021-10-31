@@ -114,12 +114,17 @@ return(
                     </div>
                     <div id="dropdown__4" className="dropdown close">
                         <div id="dropdown__content__4" className="content close">
-                            <p>
-                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaa
-                            </p>
+                        <p>
+                            Numa analogia que há muito nos é familiar, o sintoma se compara a um corpo estranho que incessantemente gera estímulos e reações no tecido em que se
+                            incrustou. [...] Ocorre uma adaptação ao pedaço do mundo interior alheio ao Eu, representado pelo sintoma, tal como normalmente o Eu realiza diante
+                            do mundo exterior. [...] Desse modo o sintoma gradualmente se torna o representante de importantes interesses, adquire valor para a afirmação de si, 
+                            entrelaça-se cada vez mais intimamente com o Eu, torna-se imprescindível para ele. [...] 
+                            Resulta aquilo que conhecemos como o benefício (ganho) da doença no tocante à neurose. 
+                            Ela favorece o esforço do Eu em incorporar o sintoma e aumenta a fixação deste.
+                        </p>
+                        <b>
+                            Inibição, sintoma e angústia – 1926
+                        </b>
                         </div>
                     </div>
                     <br></br>
@@ -132,9 +137,17 @@ return(
                     </div>
                     <div id="dropdown__5" className="dropdown close">
                         <div id="dropdown__content__5" className="content close">
-                            <p>
-                            bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaa
-                            </p>
+                        <p>
+                            Numa analogia que há muito nos é familiar, o sintoma se compara a um corpo estranho que incessantemente gera estímulos e reações no tecido em que se
+                            incrustou. [...] Ocorre uma adaptação ao pedaço do mundo interior alheio ao Eu, representado pelo sintoma, tal como normalmente o Eu realiza diante
+                            do mundo exterior. [...] Desse modo o sintoma gradualmente se torna o representante de importantes interesses, adquire valor para a afirmação de si, 
+                            entrelaça-se cada vez mais intimamente com o Eu, torna-se imprescindível para ele. [...] 
+                            Resulta aquilo que conhecemos como o benefício (ganho) da doença no tocante à neurose. 
+                            Ela favorece o esforço do Eu em incorporar o sintoma e aumenta a fixação deste.
+                        </p>
+                        <b>
+                                Inibição, sintoma e angústia – 1926
+                        </b>
                         </div>
                     </div>
                     <br></br>
@@ -147,12 +160,17 @@ return(
                     </div>
                     <div id="dropdown__6" className="dropdown close">
                         <div id="dropdown__content__6" className="content close">
-                            <p>
-                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaa
+                        <p>
+                            Numa analogia que há muito nos é familiar, o sintoma se compara a um corpo estranho que incessantemente gera estímulos e reações no tecido em que se
+                            incrustou. [...] Ocorre uma adaptação ao pedaço do mundo interior alheio ao Eu, representado pelo sintoma, tal como normalmente o Eu realiza diante
+                            do mundo exterior. [...] Desse modo o sintoma gradualmente se torna o representante de importantes interesses, adquire valor para a afirmação de si, 
+                            entrelaça-se cada vez mais intimamente com o Eu, torna-se imprescindível para ele. [...] 
+                            Resulta aquilo que conhecemos como o benefício (ganho) da doença no tocante à neurose. 
+                            Ela favorece o esforço do Eu em incorporar o sintoma e aumenta a fixação deste.
                             </p>
+                            <b>
+                                Inibição, sintoma e angústia – 1926
+                            </b>
                         </div>
                     </div>
                     <br></br>
@@ -165,12 +183,17 @@ return(
                     </div>
                     <div id="dropdown__7" className="dropdown close">
                         <div id="dropdown__content__7" className="content close">
-                            <p>
-                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaa
+                        <p>
+                            Numa analogia que há muito nos é familiar, o sintoma se compara a um corpo estranho que incessantemente gera estímulos e reações no tecido em que se
+                            incrustou. [...] Ocorre uma adaptação ao pedaço do mundo interior alheio ao Eu, representado pelo sintoma, tal como normalmente o Eu realiza diante
+                            do mundo exterior. [...] Desse modo o sintoma gradualmente se torna o representante de importantes interesses, adquire valor para a afirmação de si, 
+                            entrelaça-se cada vez mais intimamente com o Eu, torna-se imprescindível para ele. [...] 
+                            Resulta aquilo que conhecemos como o benefício (ganho) da doença no tocante à neurose. 
+                            Ela favorece o esforço do Eu em incorporar o sintoma e aumenta a fixação deste.
                             </p>
+                            <b>
+                                Inibição, sintoma e angústia – 1926
+                            </b>
                         </div>
                     </div>
                     <br></br>
@@ -183,12 +206,17 @@ return(
                     </div>
                     <div id="dropdown__8" className="dropdown close">
                         <div id="dropdown__content__8" className="content close">
-                            <p>
-                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaaaaaaaaaaaaaa
-                            aaaaaaaaaaaa
+                        <p>
+                            Numa analogia que há muito nos é familiar, o sintoma se compara a um corpo estranho que incessantemente gera estímulos e reações no tecido em que se
+                            incrustou. [...] Ocorre uma adaptação ao pedaço do mundo interior alheio ao Eu, representado pelo sintoma, tal como normalmente o Eu realiza diante
+                            do mundo exterior. [...] Desse modo o sintoma gradualmente se torna o representante de importantes interesses, adquire valor para a afirmação de si, 
+                            entrelaça-se cada vez mais intimamente com o Eu, torna-se imprescindível para ele. [...] 
+                            Resulta aquilo que conhecemos como o benefício (ganho) da doença no tocante à neurose. 
+                            Ela favorece o esforço do Eu em incorporar o sintoma e aumenta a fixação deste.
                             </p>
+                            <b>
+                                Inibição, sintoma e angústia – 1926
+                            </b>
                         </div>
                     </div>
                     <br></br>
