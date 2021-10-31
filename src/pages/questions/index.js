@@ -23,11 +23,15 @@ function Questoes() {
 
 return(
     <div className="questions">
+         <div className="texts-publications">
+            <p>PERGUNTAS FREQUENTES</p>
+        </div>
+        <div className="horizontal-line"></div>
         <div className="content">
             <div className="left-questions">
                 <img src={logo} />
             </div>
-
+           
             <div className="rigth-questions"> 
                 <div className="container">
                     <div className="menu" id="btn" onClick={e => handlerDropdown(e, 1)}>
