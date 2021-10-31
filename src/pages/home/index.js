@@ -45,13 +45,14 @@ function Home() {
 
                     </div>
 
-                    <br></br>
-                    <br></br>
+                    <div className="margin-paragraph">
+                   </div>
 
                     <div className="teste">
                         <div className="title">
                             <p> </p>
                         </div>
+                        
                         <div className="subtitle-publication">
                             <p>ÚLTIMAS PUBLICAÇÕES</p>
                         </div>

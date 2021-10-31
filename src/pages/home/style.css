@@ -144,7 +144,6 @@
 }
 
 .blocks .internal-blocks:hover {
-    
     transform: scale(1.1);
     transition: all 0.5s;
 }
@@ -169,7 +168,6 @@
 
 .teste{
     width: 100%;
-    margin-top: 2%;
     text-align: center;
     height: 5vh;
     display: flex;
@@ -188,8 +186,13 @@ Button {
 }
 
 .margin{
-    margin-top: 43%;
+    margin-top: 36%;
 }
+
+.margin-paragraph{
+    margin-top: 14%;
+}
+
 /* Responsividade */
 
 @media screen and (min-width: 1440px) {
