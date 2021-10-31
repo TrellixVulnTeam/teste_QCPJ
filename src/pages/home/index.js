@@ -77,20 +77,9 @@ function Home() {
                             </div>
                         </div>
                     </section>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
+                   <div className="margin">
+                   </div>
+
                 </section>             
             </div>
         </div>

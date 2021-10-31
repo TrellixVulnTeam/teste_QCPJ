@@ -8,14 +8,13 @@
     flex-direction: row;
     background-color: #C9C0B5;
     width: 100%;
-    background-size: 53% auto;
+    background-size: 60% auto;
     background-repeat: no-repeat;
     height: auto; 
 }
 
 .home img{
     width: 30%;
-    z-index: 20;
 }
 
 .first-part{
@@ -126,6 +125,7 @@
     align-self: center;
     width: 100%;
     margin-top: 4%;
+    margin-bottom: -1%;
 }
 
 .blocks .internal-blocks{
@@ -187,6 +187,9 @@ Button {
     display: none;
 }
 
+.margin{
+    margin-top: 43%;
+}
 /* Responsividade */
 
 @media screen and (min-width: 1440px) {
@@ -220,7 +223,7 @@ Button {
         background-image: url(../../assets/logo.png);
         background-size: 52% auto;
     }
-    br{
+    .margin{
         display: none;
     }
     .second-part .title{
@@ -324,6 +327,10 @@ Button {
 
     .second-part .text {
         padding-left: 0%;
+    }
+    
+    .second-part .subtitle-publication p {
+        font-weight: 500;
     }
 
     .button-options{
@@ -431,7 +438,6 @@ Button {
 
     .second-part .subtitle-publication p {
         font-size: 17px;
-        font-weight: 500;
     }
 
     .second-part .text p {
