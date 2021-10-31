@@ -3,12 +3,12 @@
 
 
 .home{
-    background-image: url(../../assets/logo.png);
+    background-image: url(../../assets/logo-large.png);
     display: flex;
     flex-direction: row;
     background-color: #C9C0B5;
     width: 100%;
-    background-size: 58% auto;
+    background-size: 53% auto;
     background-repeat: no-repeat;
     height: auto; 
 }
@@ -216,6 +216,13 @@ Button {
 }
 
 @media screen and (max-width: 1024px) {
+    .home{
+        background-image: url(../../assets/logo.png);
+        background-size: 52% auto;
+    }
+    br{
+        display: none;
+    }
     .second-part .title{
         padding-left: 10%;
     }
