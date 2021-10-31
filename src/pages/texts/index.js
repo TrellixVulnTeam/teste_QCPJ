@@ -35,6 +35,16 @@ function Textos() {
                             <p>TÍTULO</p>
                             <b>24 de Julho de 2021</b>
                         </div>
+                        <div className= "container">
+                            <img src={teste}/>
+                            <p>TÍTULO</p>
+                            <b>24 de Julho de 2021</b>
+                        </div>
+                        <div className= "container">
+                            <img src={teste}/>
+                            <p>TÍTULO</p>
+                            <b>24 de Julho de 2021</b>
+                        </div>
                     </div>
                 </section>
             </div>  
