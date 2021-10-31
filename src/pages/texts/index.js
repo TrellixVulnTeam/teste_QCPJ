@@ -4,8 +4,6 @@ import React from 'react';
 
 import logo from "../../assets/logo-fina.png"
 import teste from "../../assets/teste.png"
-import Header from '../../components/header';
-import Footer from '../../components/footer';
 import Slider2 from '../../components/slider2/slider.js';
 
 function Textos() {       

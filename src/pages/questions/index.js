@@ -1,8 +1,6 @@
 import './style.css';
 
 import React from 'react';
-import Header from '../../components/header';
-import Footer from '../../components/footer';
 import logo from "../../assets/aaaa.png"
 import img01 from "../../assets/img01.jpg"
 import img03 from "../../assets/img03.png"

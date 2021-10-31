@@ -4,8 +4,6 @@ import React from 'react';
 
 import logo from "../../assets/logo.png"
 import teste from "../../assets/teste.png"
-import Header from '../../components/header';
-import Footer from '../../components/footer';
 
 function Home() {       
     return(
