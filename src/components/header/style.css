@@ -120,7 +120,8 @@ header .close div {
     }
 
     header #lista {
-        width: 65%;
+        width: 86%;
+        margin-top: -2%;
     }
 }
 
