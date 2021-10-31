@@ -1,0 +1,261 @@
+.questions{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin-bottom: -6%;
+}
+
+.left-questions{
+    width: 30%;
+    height: 10vh;
+    margin-bottom: 8%;
+}
+
+.left-questions img{
+    width: 80%;
+    margin-top: -14%;
+    object-fit: cover;
+    margin-left: 27%;
+}
+
+.rigth-questions{
+    width: 94%;
+    padding-top: 3%;
+    padding-left: 14%;
+}
+
+.rigth-questions .container{
+    width: 95%;
+}
+
+.menu{
+    width: 100%;
+    height: 7vh;
+    background: #49525fbf;
+    padding: 10px 80px;
+    border-radius: 20px;
+    z-index: 5;
+    position: relative;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.menu:hover{
+    opacity:0.9;
+    cursor: pointer;
+}
+
+.dropdown{
+    background: #bdbbb4;
+    color: #606350;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: width 2s, height 4s;
+}
+  
+.dropdown.open{
+    transform: scaleY(1);
+    transform-origin: top;
+}
+
+.content.open {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    z-index: 4;
+    margin-top: -3%;
+    margin-bottom: 5%;
+    transition: all .5s ease-in-out;
+    padding-bottom: 0%;
+}
+
+.content.open p{
+    margin: 5%;
+}
+
+.content.open b{
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+.content.close {
+    opacity: 0;
+    max-height: 0px;
+}
+
+add{
+    width: 110px;
+    height: 36px;
+    border-radius: 3px;
+    font-size: 2em;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+}
+
+add:hover{
+    transform: scale(1.01);
+    transition: all 0.8s;
+}
+
+.title:hover{
+    transform: scale(1.01);
+    transition: all 0.8s;
+}
+
+.symptoms{
+    display: flex;
+    flex-direction: row;    
+    width: 100%;  
+    height: 80vh;   
+    margin-bottom: -8%;
+    margin-top: 12%;
+}
+
+.symptoms-one{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+}
+
+.symptoms-one img{
+    border: 2px solid #c9c0b5;
+    width: 25%;
+    object-fit: cover;
+}
+
+.symptoms-two{
+    border: 2px solid #c9c0b5;
+    background-color: #49525f;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.symptoms-two b{
+    color: #C9C0B5;
+    font-size: 25px;
+    margin-top: 18%;
+    text-align: center;
+    padding-bottom: 11%;
+}
+
+.symptoms-two p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    color:#C9C0B5;
+    text-align: center;
+    font-size: 14px;
+}
+.symptoms-three{
+    width: 25%;
+}
+
+.symptoms-four{
+    width: 25%;
+}
+.symptoms-respnsive{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .rigth-questions .container {
+        font-size: 13px;
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .left-questions{
+        display: none;
+    }
+
+    .rigth-questions {
+        width: 99%;
+        padding-left: 3%;
+    }
+
+    .rigth-questions p{
+        font-size: 13px;
+    }
+
+    p.title{
+        width: 1807%;
+    }
+    
+    .symptoms{
+        display: none;
+    }
+
+    .symptoms-respnsive{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .symptoms-one-responsive{
+        padding: 1%;
+        margin-top: 7%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .symptoms-one-responsive img{
+        border: 2px solid #c9c0b5;
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .symptoms-two{
+        width: 50%;
+    }
+
+    .symptoms-two b{
+        font-size: 20px;
+    }
+
+    .symptoms-one-responsive-rigth{
+        padding: 1%;
+        padding-top: 0%;
+        margin-bottom: -13%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .symptoms-one-responsive-rigth img{
+        border: 2px solid #c9c0b5;
+        width: 50%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .symptoms-two b{
+        font-size: 18px;
+    }
+
+    .symptoms-two p{
+        font-size: 12px;
+    }
+    .menu {
+        padding: 10px 50px;
+    }
+}

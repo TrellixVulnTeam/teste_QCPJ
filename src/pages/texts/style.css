@@ -1,0 +1,229 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;300&display=swap');
+
+.texts-page{
+    max-width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    margin-bottom: -2%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texts-page .section-one{
+    width: 30%;
+    z-index: 22;
+    margin-top: 0%;
+}
+
+.texts-page .section-one img{
+    height: 100vh;
+    width: 50%;
+    z-index: 22;
+    z-index: 22;
+    object-fit: inherit;
+    background-attachment: fixed;
+}
+
+.texts-page .section-two{
+    margin-top: 4%;
+    justify-content: center;
+    padding-top: 0%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;    
+}
+
+.texts-page .section-two .blocks-texts{
+    margin-left: 5%;
+    display: flex;
+    margin-right: 3%;
+    overflow-y: scroll;
+    margin-top: 4%;
+    margin-bottom: 15%;
+    height: 65vh;
+    flex-direction: column;
+}
+
+.texts-page .section-two .blocks-texts::-webkit-scrollbar {
+    padding-top: 4%;
+    width: 6px;
+}
+   
+.texts-page .section-two .blocks-texts::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgba(0, 5, 0, 0.2);
+}
+   
+.texts-page .section-two .blocks-texts::-webkit-scrollbar-thumb {
+    background-color: #606350;
+    border-radius: 0px;
+    height: 1%;
+    outline: -8px solid slategrey;
+}
+  
+.texts-publications{
+    position: static;
+    z-index: 10;
+    align-items: justify;
+    padding-left: 29.8%;
+    height: 12vh;
+}
+
+.texts-publications p{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #606350;
+}
+
+.texts-page .section-two .blocks-texts .container{
+    display: flex;
+    margin-left: 23%;
+    flex-direction: row;
+    background-color: #49525f;
+    width: 60%;
+    height: 25vh;
+    margin-top: 7%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.texts-page .section-two .blocks-texts .container:hover {
+    border: 1px solid white;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.texts-page .section-two .blocks-texts .container img{
+    border-radius: 50%;
+    width: 24%;
+    height: 20vh;
+    margin-left: -10%;
+    margin-top: 0%;
+}
+
+.texts-page .section-two .blocks-texts .container p{
+    font-size: 20px;
+    color: white;
+    padding-left: 4%;
+    font-weight: 300;
+}
+
+.texts-page .section-two .blocks-texts .container b {
+    font-size: 14px;
+    padding-left: 40%;
+    padding-bottom: 4%;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    font-weight: 200;
+}
+
+.box-slider{
+    position: absolute;
+    border-radius: 15px;
+    background-color: #49525f;
+    height: 55vh;
+    width: 47.5%;
+    margin-top: 6%;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.section-slider{
+    max-width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    margin-bottom: -2%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texts-page .sectionaa{
+    margin-top: 4%;
+    justify-content: center;
+    padding-top: 0%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;    
+}
+
+@media screen and (max-width: 768px){
+    .texts-page .section-one{
+        z-index: 0;
+    }
+
+    .texts-page .section-two .blocks-texts {
+        margin-left: 0%;
+    }
+
+    .texts-page .section-two .blocks-texts .container img {
+        width: 29%;
+    }
+        
+    .texts-page .section-two .blocks-texts .container b {
+        padding-left: 8%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .texts-page .section-one img {
+        width: 100%;
+    }
+
+    .texts-publications {
+        padding-left: 16.8%;
+        height: 8vh;
+    }
+
+    .texts-publications p {
+        font-size: 20px;
+    }
+
+    .texts-page .section-two .blocks-texts .container{
+        margin-left: 21%;
+        width: 75%;
+    }
+
+    .texts-page .section-two .blocks-texts .container p {
+        font-size: 19px;
+        padding-left: 3%;
+    }
+
+    .texts-page .section-two .blocks-texts .container b {
+        padding-left: 0%;
+        font-size: 12px;
+    }
+
+    .texts-page .section-two .blocks-texts .container img {
+        width: 34%;
+        height: 18vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .texts-publications {
+        padding-left: 5.8%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .texts-page .section-one{
+        display: none;
+    }
+
+    .texts-page .section-two{
+        width: 100%;
+    }
+
+    .texts-page .section-two .blocks-texts .container {
+        margin-left: 15%;
+        width: 83%;
+    }
+}
+
+/*fazer responsividade do pixel 2 xl, pixel 2, iphone 6/7/8, iphone x, ipad, surface duo, ipad pro*/
+
+/*mexer em todo o slide*/

@@ -1,0 +1,188 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.one .left-one{
+    width: 40%;
+}
+
+.left-one p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #49525F;
+}
+
+.one .right-one{
+    width: 40%;
+    height: 60vh;
+    background-color: #bdbab5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.one .right-one b{
+    font-weight: 300;
+    margin-left: 3%;
+    font-size: 18px;
+    color: #49525F;
+    margin-bottom: 5%;
+}
+h2{
+    font-size: 18px;
+    margin-left: 3%;
+    color: #49525F;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.one .right-one p{
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 5%;
+    font-size: 14.5px;
+    color: #49525F;
+}
+
+hr {
+    margin-top: 5%;
+    display: flex;
+    margin-left: 30%;
+    align-items: baseline;
+    width: 70%;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+
+.right-one .icons{
+    width: 50%;
+    margin-left: 75%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.right-one .icons a img{
+    margin-left: 7%;
+    width: 9%;
+}
+
+.icons .lattes{
+    height: 4vh;
+}
+
+
+@media screen and (max-width:768px){
+    .one {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        justify-content: center;
+    }
+  
+    .one .right-one {
+        width: 59%;
+        height: 72vh;
+    }
+    
+    .one .left-one{
+        width: 59%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .one .right-one {
+        width: 92%;
+        height: 37vh;
+    }
+
+    .one .left-one{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .one .right-one {
+        width: 94%;
+        height: 74vh;
+    }
+    .right-one .icons{
+        width: 50%;
+        margin-left: 42%;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    hr{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 440px){
+    .one .right-one {
+        width: 94%;
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .one .right-one {
+        height: 51vh;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .one .right-one {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .one .right-one {
+        height: 78vh;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .one .right-one {
+        height: 67vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .one .right-one {
+        height: 80vh;
+    }
+}
+
+@media screen and (min-height: 700px){
+    .one .right-one {
+        height: 48vh;
+    }
+}
+
+@media screen and (min-height: 650px){
+    .one .right-one {
+        height: 58vh;
+    }
+}
+
+@media screen and (min-height: 1000px){
+    .one .right-one {
+        height: 37vh;
+    }
+}

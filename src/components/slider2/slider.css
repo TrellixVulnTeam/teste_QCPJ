@@ -1,0 +1,50 @@
+
+.slider {
+    margin-top: 9%;
+    padding-left: 17.5%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide img {
+    max-width: 100%;
+    margin: 2px auto;
+    object-fit: contain;
+}
+
+.slide {
+    transform: scale(0.6);
+    transition: transform 300ms;
+    opacity: 0.3;
+}
+
+.activeSlide {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.slick-prev {
+    left: 22.5%;
+    z-index: 18;
+}
+
+.slick-next {
+    right: 24.5%;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 38px;
+    line-height: 1;
+    opacity: 1;
+    color: #606350;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-initialized{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+}
+
